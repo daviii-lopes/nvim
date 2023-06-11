@@ -4,6 +4,16 @@
 -- See `:help vim.keymap.set()`
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 
+-- Split Screen
+vim.keymap.set({ 'n', 'v' }, 'ss', ':split<CR>', { silent = true })
+vim.keymap.set({ 'n', 'v' }, 'vv', ':vsplit<CR>', { silent = true })
+
+-- Move between buffers
+vim.keymap.set({'n', 'v'}, '<C-l>', '<C-w>l', { silent = true })
+vim.keymap.set({'n', 'v'}, '<C-j>', '<C-w>j', { silent = true })
+vim.keymap.set({'n', 'v'}, '<C-h>', '<C-w>h', { silent = true })
+vim.keymap.set({'n', 'v'}, '<C-k>', '<C-w>k', { silent = true })
+
 vim.keymap.set('i', 'jj', '<Esc>')
 -- Remap for dealing with word wrap
 vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
