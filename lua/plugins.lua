@@ -145,5 +145,5 @@ require('lazy').setup({
 
   { import = 'custom.plugins' },
 
-  {"mfussenegger/nvim-dap"}
+  {"mfussenegger/nvim-dap"},
 }, {})
