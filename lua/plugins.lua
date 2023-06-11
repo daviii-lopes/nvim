@@ -100,6 +100,7 @@ require('lazy').setup({
         theme = 'auto',
         component_separators = '|',
         section_separators = '',
+        globalstatus = true,
       },
     },
   },
