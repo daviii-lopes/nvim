@@ -10,7 +10,7 @@ Esta é a minha configuração pessoal do neovim, feita com base no [kickstarter
 <br>
 <a href="https://ibb.co/GVsPhX6"><img src="https://i.ibb.co/hKX8qk6/Terminal.png" alt="Terminal" border="0"></a>
 
-#### Essa configuração tem:  
+# Essa configuração tem:  
 ## - Suporte a LSP, vim-cmp e snippets!  
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/2hFSRgb/cmp-lsp.png" alt="cmp-lsp" border="0"></a>  
