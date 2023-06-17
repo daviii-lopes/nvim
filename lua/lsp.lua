@@ -61,6 +61,9 @@ local servers = {
       telemetry = { enable = false },
     },
   },
+  --solargraph = {
+  --   root_dir = util.root_pattern("Gemfile", ".git");
+  --}
 }
 
 -- Setup neovim lua configuration
@@ -137,3 +140,23 @@ cmp.setup {
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
+require'lspconfig'.solargraph.setup{
+  cmd = { "solargraph", "stdio" },
+  filetypes = { "ruby" },
+  init_options = {
+    formatting = true
+  },
+  root_dir = function ()
+    return '/home/puro_osso/.config/nvim'
+    -- precisei especificar o path da minha 
+    -- configuração do neovim para o solargraph funcionar,
+    -- caso saiba resolver esse problema, faça uma pull request :)
+  end,
+  settings = {
+    solargraph = {
+    diagnostics = true
+  }
+}
+}
+

@@ -1,7 +1,4 @@
 -- [[ Configurations ]] 
--- colorscheme
---vim.cmd('colorscheme tokyonight')
-
 vim.o.confirm = true
 
 -- Tab size
