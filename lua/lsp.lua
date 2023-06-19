@@ -160,3 +160,5 @@ require'lspconfig'.solargraph.setup{
 }
 }
 
+require'luasnip'.filetype_extend("eruby", {"rails", "html", "css"})
+require'luasnip'.filetype_extend("html", {"html", "css"})
