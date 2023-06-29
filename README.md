@@ -21,4 +21,10 @@ Esta é a minha configuração pessoal do neovim, feita com base no [kickstarter
 
 <a href="https://ibb.co/tpG8YCC"><img src="https://i.ibb.co/4RqP4NN/Lazy.png" alt="Lazy" border="0"></a>  
 
-## - <s>Suporte a Debugers</s> Em desenvolvimento....
+## - <s>Suporte a Debugers</s> Em desenvolvimento...
+
+# Instalação
+
+Você pode instalar essa configuração apartir deste one-liner:
+
+```git clone https://github.com/daviii-lopes/minha_configuracao_neovim/ ~/.config/nvim```
