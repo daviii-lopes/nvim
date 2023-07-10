@@ -11,5 +11,6 @@ return {
       'confirm_done',
       cmp_autopairs.on_confirm_done()
     )
+    local brackets = { { '(', ')' }, { '[', ']' }, { '{', '}' }, { '<%=', '%>' }, { '<%', '%>' } }
   end,
 }

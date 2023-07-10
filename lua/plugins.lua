@@ -58,7 +58,6 @@ require('lazy').setup({
       'rafamadriz/friendly-snippets',
     },
   },
-  
   -- Useful plugin to show you pending keybinds.
   { 'folke/which-key.nvim', opts = {} },
   {
@@ -86,7 +85,9 @@ require('lazy').setup({
     'navarasu/onedark.nvim',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'onedark'
+      require('onedark').setup {
+        style = 'deep'
+      }
     end,
   },
 
@@ -97,8 +98,8 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'auto',
-        component_separators = '|',
+        theme = auto,
+        component_separators = '',
         section_separators = '',
         globalstatus = true,
       },

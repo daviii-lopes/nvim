@@ -9,4 +9,4 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 -- colorscheme
-vim.cmd('colorscheme tokyonight')
+vim.cmd('colorscheme onedark')
