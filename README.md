@@ -27,4 +27,4 @@ Esta é a minha configuração pessoal do neovim, feita com base no [kickstarter
 
 Você pode instalar essa configuração apartir deste one-liner:
 
-```git clone https://github.com/daviii-lopes/minha_configuracao_neovim/ ~/.config/nvim```
+```git clone https://github.com/daviii-lopes/nvim/ ~/.config/nvim```
